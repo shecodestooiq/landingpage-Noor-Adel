@@ -1,0 +1,123 @@
+@media (max-width: 1024px) {
+    body{
+      grid-template-columns: repeat(3, 1fr);
+      gap: 60px;
+  
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    body{
+      grid-template-columns: repeat(1, 1fr);
+     
+  
+    }
+  }
+  .library{
+    height:20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(24, 16, 240, 0.6),rgba(4, 21, 74, 0.6)),url(Harry-Potter.jpg);
+    background-size:cover;
+    background-position: center;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+  
+  }
+  
+  .logo{
+    color: white;
+    font-size: 50px;
+  
+  }
+  span{
+    color: #ea1538;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 20px;
+  }
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  
+  }
+  
+  nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+  }
+  
+  
+  details{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  body{
+      background-color: #3100f7;
+      font-family: "Lobster", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+  
+  
+  .main-grid {
+    
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      gap: 20px;
+  }
+  h1
+  {
+    align-items: center;
+      color: #d4dadc;
+      font-size: 40;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .book {
+    border-color: aliceblue;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background: 8px;
+      overflow: hidden;
+      box-shadow: 0px 2px 4px rgba(22, 19, 19, 0.736);
+      border-radius: 20px;
+    }
+    img{
+      width:200px;
+      height:auto;
+      border: 2px rgb(154, 222, 247);
+    }
+   
+    button{
+      justify-content: space-between;
+      display: flex;
+      border: none;
+      background: #e8edf0d8;
+      padding: 12px 30px;
+      margin: 10px;
+      border-radius: 30px;
+      color: rgb(252, 86, 84);
+      font-weight: bold;
+      font-size: 15px;
+      transition: .4s;
+  }
+    /* Change the link color on hover */
+    
